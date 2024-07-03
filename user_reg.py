@@ -37,9 +37,9 @@ def registration():
 while(True):
      print("do u want to register yes/no")
      a=input()
-     if(a=="yes" or "YES"):
+     if(a=="yes" or a=="YES"):
           registration()
-     elif(a=="no" or "NO"):
+     elif(a=="no" or a=="NO"):
           exit()
 
  
