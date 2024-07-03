@@ -26,8 +26,10 @@ def registration():
           print("Registration successfull")
           u=User(name,email,password)
           database.append(u)
-          
-          u.display_info()
+          print("DETAILS OF REGISTRATION")
+          for i in database:
+               i.display_info()
+    
 
 
         
